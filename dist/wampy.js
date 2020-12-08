@@ -1720,13 +1720,13 @@ var Wampy = /*#__PURE__*/function () {
           err = false;
       var options = {};
 
-      if (!this._preReqChecks({
-        topic: topicURI,
-        patternBased: false,
-        allowWAMP: true
-      }, 'dealer', callbacks)) {
-        return this;
-      }
+      // if (!this._preReqChecks({
+      //   topic: topicURI,
+      //   patternBased: false,
+      //   allowWAMP: true
+      // }, 'dealer', callbacks)) {
+      //   return this;
+      // }
 
       if (typeof callbacks === 'function') {
         callbacks = {
